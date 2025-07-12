@@ -1,0 +1,19 @@
+# Ignore Allure report and results
+allure-report/
+allure-results/
+
+# Ignore logs
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+*.sqlite3
+
+# Virtual environment
+venv/

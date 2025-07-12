@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "refresh": {
+      "type": "string"
+    },
+    "access": {
+      "type": "string"
+    },
+    "id": {
+      "type": "integer"
+    },
+    "_id": {
+      "type": "integer"
+    },
+    "username": {
+      "type": "string",
+      "format": "email"
+    },
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "name": {
+      "type": "string"
+    },
+    "isAdmin": {
+      "type": "boolean"
+    },
+    "token": {
+      "type": "string"
+    }
+  },
+  "required": ["refresh", "access", "id", "_id", "username", "email", "name", "isAdmin", "token"]
+}
